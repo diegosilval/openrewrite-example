@@ -1,0 +1,8 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: com.sample.MyRecipe
+recipeList:
+  - org.openrewrite.java.migrate.lang.var.UseVarForObject
+  - org.openrewrite.java.migrate.lang.var.UseVarForPrimitive
+  - org.openrewrite.java.migrate.lang.var.UseVarForGenericsConstructors
+  - org.openrewrite.java.migrate.lang.var.UseVarForGenericMethodInvocations
